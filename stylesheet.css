@@ -1,0 +1,122 @@
+#boba3{
+    position:absolute;
+    top:870px;
+    left:50px;
+  }
+  
+  #boba2{
+    margin:65px;
+  }
+  
+  .boba{
+      height: 200px;
+      width: 200px;
+  }
+  
+  body{
+      background-image: url();
+  }
+  
+  .displayBlock{
+      display: block;
+  }
+  
+  #bobaTea{
+      position: absolute;
+      top: 130px; left: 500px;
+  }
+  
+  
+  .floatRight{
+      display: block;
+      float: right;
+  }
+  
+  .center{
+      text-align: center;
+  }
+  
+  #mainheader{
+      text-align: center;
+      font-size: 4em;
+      margin: 0px;
+  }
+  
+  body > h2{
+      text-align: center;
+  }
+  
+  .colorAnimation{
+      font-size: 1.5em;
+      text-align: center;
+      animation-name: colorChange;
+      animation-duration: 4s;
+      animation-delay: 0s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+  }
+  
+  @keyframes colorChange{
+      0%{color: blue;}
+      25%{color: aqua;}
+      50%{color: red;}
+      75%{color: violet;}
+      100%{color: rgb(0, 255, 34);}
+  }
+  
+  .colorAnimation2{
+      font-size: 1.5em;
+      text-align: center;
+      animation-name: colorChange2;
+      animation-duration: 6s;
+      animation-delay: 0s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+  }
+  
+  @keyframes colorChange2{
+      0%{color: blue;}
+      25%{color: aqua;}
+      50%{color: red;}
+      75%{color: violet;}
+      100%{color: rgb(0, 255, 34);}
+  }
+  
+  .img1{
+      position: absolute;
+      top: 400px;
+      left: 0px;
+      padding-top: 100px;
+      opacity: 0;
+      transition: 0.6;
+  }
+  
+  .img1:hover{
+      opacity: 1;
+  }
+  
+  .img2{
+      position: absolute;
+      top: 650px;
+      left: 0px;
+      padding-top: 100px;
+      opacity: 0;
+      transition: 0.6;
+  }
+  
+  .img2:hover{
+      opacity: 1;
+  }
+  
+  .img3{
+      position: absolute;
+      top: 950px;
+      left: 0px;
+      padding-top: 100px;
+      opacity: 0;
+      transition: 0.6;
+  }
+  
+  .img3:hover{
+      opacity: 1;
+  }
